@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App(){
-  const[taske,setTask]=useState("");
+  const[task,setTask]=useState("");
   const[tasks,setTasks]=useState([]);
 
   const addTask=()=>{
